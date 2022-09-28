@@ -12196,7 +12196,6 @@ fieldset[disabled] .btn-link.active {
 
 .footer .nav {
   display: inline-block;
-  float: left;
   margin-bottom: 0;
   padding-left: 30px;
   list-style: none;
@@ -13625,6 +13624,7 @@ img {
   }
   .navbar button.navbar-toggler[data-target="#navigation"] {
     padding-top: 0;
+    margin-right: -3em;
   }
   .navbar .navbar-toggler-bar {
     display: block;
