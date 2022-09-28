@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="col-lg-4"><?php $Name = auth()->user()->name?>
-            <h1 class="text-center">Welcome, {{explode(" ", $Name)[1]}}</h1>
+            <h1 class="text-center">Welcome, {{explode(" ", $Name)[0]}}</h1>
             <div class="card text-white text-center p-5">
                 There are no outstanding tasks to be performed.
             </div>
